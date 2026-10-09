@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Test and tooling output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Measurement logs and reports, including custom output locations
+logs/
+*.log
+*.csv
+*.xlsx
+
+# Packet captures, metadata directories, and TLS session secrets
+*_capture/
+*.pcap*
+*.keys
+*.keylog
+*.keylog.*
+sslkeylog*
+SSLKEYLOGFILE
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Editor and operating system temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
